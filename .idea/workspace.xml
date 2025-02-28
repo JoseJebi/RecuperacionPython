@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="726ffc04-fbed-405d-871f-7889e1303b2b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Constantes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Administrador.py" beforeDir="false" afterPath="$PROJECT_DIR$/Administrador.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Constantes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Constantes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Empleado.py" beforeDir="false" afterPath="$PROJECT_DIR$/Empleado.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recepcionista.py" beforeDir="false" afterPath="$PROJECT_DIR$/Recepcionista.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/principal.py" beforeDir="false" afterPath="$PROJECT_DIR$/principal.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +51,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Constantes.executor": "Run",
+    "Python.principal.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "develop",
     "last_opened_file_path": "C:/Users/infci/PycharmProjects/ejemploSGE"
   }
 }]]></component>
