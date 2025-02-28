@@ -1,5 +1,5 @@
 from Administrador import Administrador
-from Constantes import QUERY_CLIENTES_ACTIVOS, QUERY_VUELOS_BY_PASAJERO, QUERY_VUELOS
+from Constantes import QUERY_CLIENTES_ACTIVOS, QUERY_VUELOS_BY_PASAJERO, QUERY_VUELOS, UPDATE_MAYORES, UPDATE_MENORES
 from Empleados import Empleados
 from Log import escribirError, msjMenu, errDato, escribirInfo, msjConsulta1, msjPermisos, errUserNull, errUserPermisos, \
     msjConsulta2
@@ -81,6 +81,8 @@ def mostrar_datos_vuelo():
         menu_opcion2(df)
 
 def asignar_mayor_menor():
+    db_connection.execute_query(UPDATE_MAYORES)
+    db_connection.execute_query(UPDATE_MENORES)
     print("Usuarios modificados")
 
 
